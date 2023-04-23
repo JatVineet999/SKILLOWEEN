@@ -1,38 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+SKILLOWEEN
+Welcome to SKILLOWEEN, a website designed to host interactive games that assess users' soft skills. The website has three challenges, each designed to test different soft skills.
+The website is hosted at https://skilloweenf-git-main-jatvineet999.vercel.app/.
 
-## Getting Started
+Challenge 1: Riddle Puzzle
+In this challenge, users must find the correct code using the given clues. The puzzle will assess the user's thinking and analytical capabilities. The user will be given hints, and the number of letters in the correct word will be shown using dashes. If the user runs out of time or guesses and cannot guess the code, they will face a dead end. The user must use the provided hints to find the correct code.
 
-First, run the development server:
+Challenge 2: Tic-Tac-Toe
+In this challenge, users must use their soft skills such as critical thinking, decision-making, concentration, and logical decision-making abilities to win the game against the logics used by the game. Users will face a dead end if they cannot find the best way to win.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Challenge 3: Enigma (Hard-to-Figure-Out Riddle)
+In this challenge, users will need to solve a hard-to-figure-out riddle, which will test and push their thinking and analytical capabilities to the next level. Although clues will be provided, it will still be a challenging task.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To play the game, users will need to sign up and provide their user ID, email, and password, which will be stored in a publicly hosted MongoDB cluster. We are using MongoDB and Mongoose to form a connection and some APIs of NextJS in the backend to store data.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+From the collected data, we will display the user dashboard, including the time spent completing each level of the game and their scores. This information will allow us to judge the user's soft skills, such as time management, thinking skills, decision-making skills, logical thinking, ability to think strategically, spatial reasoning, planning, and foresight.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Thank you for choosing SKILLOWEEN. Have fun playing and developing your soft skills!!
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
